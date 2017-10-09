@@ -1,0 +1,12 @@
+LIBRARY “edgeBoxesMex.mexw64”
+EXPORTS mexFunction2
+
+LIBRARY “edgesDetectMex.mexw64”
+EXPORTS mexFunction1
+
+LIBRARY “edgesNmsMex.mexw64”
+EXPORTS mexFunction
+
+
+LIBRARY “spDetectMex.mexw64”
+EXPORTS mexFunction3

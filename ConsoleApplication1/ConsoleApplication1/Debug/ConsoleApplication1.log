@@ -1,0 +1,46 @@
+﻿  spDetectMex.cpp
+c:\users\kamna\downloads\edges-master\edges-master\private\spdetectmex.cpp(211): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\kamna\downloads\edges-master\edges-master\private\spdetectmex.cpp(324): warning C4838: conversion from 'int' to 'const mwSize' requires a narrowing conversion
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\Kamna\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.exe) does not match the Linker's OutputFile property value (C:\Users\Kamna\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.mexw64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1199,5): warning MSB8012: TargetExt(.exe) does not match the Linker's OutputFile property value (.mexw64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+Source.def(4): warning LNK4275: 'LIBRARY' statement cannot appear after 'LIBRARY' or 'NAME'; ignored
+Source.def(7): warning LNK4275: 'LIBRARY' statement cannot appear after 'LIBRARY' or 'NAME'; ignored
+Source.def(11): warning LNK4275: 'LIBRARY' statement cannot appear after 'LIBRARY' or 'NAME'; ignored
+     Creating library C:\Users\Kamna\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.lib and object C:\Users\Kamna\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.exp
+LINK : warning LNK4232: name “edgeBoxesMex.mexw64” contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 1252
+ConsoleApplication1.exp : warning LNK4070: /OUT:“edgeBoxesMex.mexw64” directive in .EXP differs from output filename 'C:\Users\Kamna\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.mexw64'; ignoring directive
+edgeBoxesMex.obj : error LNK2019: unresolved external symbol _mxGetM referenced in function "void __cdecl mexFunction2(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction2@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+edgesNmsMex.obj : error LNK2001: unresolved external symbol _mxGetM
+spDetectMex.obj : error LNK2001: unresolved external symbol _mxGetM
+edgeBoxesMex.obj : error LNK2019: unresolved external symbol _mxGetClassID referenced in function "void __cdecl mexFunction2(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction2@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+edgeBoxesMex.obj : error LNK2019: unresolved external symbol _mxGetData referenced in function "void __cdecl mexFunction2(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction2@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+edgesDetectMex.obj : error LNK2001: unresolved external symbol _mxGetData
+edgesNmsMex.obj : error LNK2001: unresolved external symbol _mxGetData
+spDetectMex.obj : error LNK2001: unresolved external symbol _mxGetData
+edgeBoxesMex.obj : error LNK2019: unresolved external symbol _mxGetScalar referenced in function "void __cdecl mexFunction2(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction2@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+edgesDetectMex.obj : error LNK2001: unresolved external symbol _mxGetScalar
+edgesNmsMex.obj : error LNK2001: unresolved external symbol _mxGetScalar
+spDetectMex.obj : error LNK2001: unresolved external symbol _mxGetScalar
+edgeBoxesMex.obj : error LNK2019: unresolved external symbol _mxGetN referenced in function "void __cdecl mexFunction2(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction2@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+edgesNmsMex.obj : error LNK2001: unresolved external symbol _mxGetN
+spDetectMex.obj : error LNK2001: unresolved external symbol _mxGetN
+edgeBoxesMex.obj : error LNK2019: unresolved external symbol _mxCreateNumericMatrix_730 referenced in function "void __cdecl mexFunction2(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction2@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+edgesNmsMex.obj : error LNK2001: unresolved external symbol _mxCreateNumericMatrix_730
+spDetectMex.obj : error LNK2001: unresolved external symbol _mxCreateNumericMatrix_730
+edgeBoxesMex.obj : error LNK2019: unresolved external symbol _mxCreateNumericArray_730 referenced in function "void __cdecl mexFunction2(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction2@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+edgesDetectMex.obj : error LNK2001: unresolved external symbol _mxCreateNumericArray_730
+spDetectMex.obj : error LNK2001: unresolved external symbol _mxCreateNumericArray_730
+edgeBoxesMex.obj : error LNK2019: unresolved external symbol _mexErrMsgTxt referenced in function "void __cdecl mexFunction2(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction2@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+spDetectMex.obj : error LNK2001: unresolved external symbol _mexErrMsgTxt
+edgesDetectMex.obj : error LNK2019: unresolved external symbol _mxGetNumberOfDimensions_730 referenced in function "void __cdecl mexFunction1(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction1@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+spDetectMex.obj : error LNK2001: unresolved external symbol _mxGetNumberOfDimensions_730
+edgesDetectMex.obj : error LNK2019: unresolved external symbol _mxGetDimensions_730 referenced in function "void __cdecl mexFunction1(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction1@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+spDetectMex.obj : error LNK2001: unresolved external symbol _mxGetDimensions_730
+edgesDetectMex.obj : error LNK2019: unresolved external symbol _mxGetNumberOfElements referenced in function "void __cdecl mexFunction1(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction1@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+edgesDetectMex.obj : error LNK2019: unresolved external symbol _mxGetField_730 referenced in function "void __cdecl mexFunction1(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction1@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+edgesDetectMex.obj : error LNK2019: unresolved external symbol _mexPrintf referenced in function "void __cdecl mexFunction1(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction1@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+spDetectMex.obj : error LNK2019: unresolved external symbol _mxGetString_730 referenced in function "void __cdecl mexFunction3(int,struct mxArray_tag * * const,int,struct mxArray_tag const * * const)" (?mexFunction3@@YAXHQAPAUmxArray_tag@@HQAPBU1@@Z)
+C:\Program Files\MATLAB\R2017b\extern\lib\win64\microsoft\libmx.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files\MATLAB\R2017b\extern\lib\win64\microsoft\libmex.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files\MATLAB\R2017b\extern\lib\win64\microsoft\libmat.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Kamna\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.mexw64 : fatal error LNK1120: 14 unresolved externals

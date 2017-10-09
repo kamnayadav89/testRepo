@@ -1,0 +1,29 @@
+﻿  stdafx.cpp
+  ConsoleApplication1.cpp
+  spDetectMex.cpp
+c:\users\kamna\downloads\edges-master\edges-master\private\spdetectmex.cpp(211): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\kamna\downloads\edges-master\edges-master\private\spdetectmex.cpp(324): warning C4838: conversion from 'int' to 'const mwSize' requires a narrowing conversion
+  edgesNmsMex.cpp
+c:\users\kamna\downloads\edges-master\edges-master\private\edgesnmsmex.cpp(14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\kamna\downloads\edges-master\edges-master\private\edgesnmsmex.cpp(15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\kamna\downloads\edges-master\edges-master\private\edgesnmsmex.cpp(43): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  edgesDetectMex.cpp
+c:\users\kamna\downloads\edges-master\edges-master\private\edgesdetectmex.cpp(77): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\kamna\downloads\edges-master\edges-master\private\edgesdetectmex.cpp(77): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\kamna\downloads\edges-master\edges-master\private\edgesdetectmex.cpp(87): warning C4838: conversion from 'const int' to 'const mwSize' requires a narrowing conversion
+c:\users\kamna\downloads\edges-master\edges-master\private\edgesdetectmex.cpp(88): warning C4838: conversion from 'const int' to 'const mwSize' requires a narrowing conversion
+c:\users\kamna\downloads\edges-master\edges-master\private\edgesdetectmex.cpp(89): warning C4838: conversion from 'const int' to 'const mwSize' requires a narrowing conversion
+  edgeBoxesMex.cpp
+c:\users\kamna\downloads\edges-master\edges-master\private\edgeboxesmex.cpp(413): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\kamna\downloads\edges-master\edges-master\private\edgeboxesmex.cpp(439): warning C4838: conversion from 'int' to 'const mwSize' requires a narrowing conversion
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\Kamna\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe) does not match the Linker's OutputFile property value (C:\Users\Kamna\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.mexw64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1199,5): warning MSB8012: TargetExt(.exe) does not match the Linker's OutputFile property value (.mexw64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+Source.def(4): warning LNK4275: 'LIBRARY' statement cannot appear after 'LIBRARY' or 'NAME'; ignored
+Source.def(7): warning LNK4275: 'LIBRARY' statement cannot appear after 'LIBRARY' or 'NAME'; ignored
+Source.def(11): warning LNK4275: 'LIBRARY' statement cannot appear after 'LIBRARY' or 'NAME'; ignored
+     Creating library C:\Users\Kamna\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.lib and object C:\Users\Kamna\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exp
+LINK : warning LNK4232: name “edgeBoxesMex.mexw64” contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 1252
+ConsoleApplication1.exp : warning LNK4070: /OUT:“edgeBoxesMex.mexw64” directive in .EXP differs from output filename 'C:\Users\Kamna\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.mexw64'; ignoring directive
+  ConsoleApplication1.vcxproj -> C:\Users\Kamna\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\Kamna\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.pdb (Partial PDB)
